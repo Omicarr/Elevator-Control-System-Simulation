@@ -24,7 +24,7 @@ This project is a C-based simulation of an elevator control system designed for 
 
 🛠️ Code Structure
 
-- `Request' struct: Represents a floor request with a timestamp.
+- `Request` struct: Represents a floor request with a timestamp.
 - `PriorityDeque`: Stores and sorts incoming floor requests.
 - `processRequestsUp()`: Handles upward movement requests.
 - `processRequestsDownHoldHigher()`: Handles downward movement and moves directly to the highest requested floor.
